@@ -1,0 +1,282 @@
+{% extends 'frontend/master/master.html' %}
+{% block content %}
+{% load static %}
+<body>
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Salem Sif eddine</h1>
+                    <div class="page-scroll">
+                        <p class="job-title">Full Stack Developer</p>
+                        <a href="#contact" class="btn btn-fill ">Hire me</a>
+                        <div class="clearfix visible-xxs"></div>
+                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                    </div>
+                    <div class="social-icons">
+                        <a data-toggle="tooltip" title="linkedin" target="”_blank”" href="https://www.linkedin.com/in/muiz-ahmed-khan/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a data-toggle="tooltip" title="github" target="”_blank”" href="https://github.com/MuizZer07">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a data-toggle="tooltip" title="Twitter" target="”_blank”" href="https://twitter.com/MuizZer07">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a data-toggle="tooltip" title="Facebook" target="”_blank”" href="https://www.facebook.com/muiz07">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a data-toggle="tooltip" title="instagram" target="”_blank”" href="https://www.instagram.com/muizzer07/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+            
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-right">
+                    <img src="{% static 'assets/img/sifeddine.jpg' %}" alt="Sif eddine-Basnet">
+                </div>
+
+            </div>
+        </div>
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+
+        <section id="about" class="site-section section-about text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2>About</h2>
+                        <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines">
+                        <p>Hello! I'm Sif eddine, a full stack developer,I study electrical and electronic engineering at IGEE ex inelec
+                            ,Iam a guy slighty obsessed for code quality. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                        <a href="{% static 'assets/img/cv.jpg' %} " class="btn btn-fill" target="_blank" download>Download my cv</a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
+
+        <section class="site-section section-skills">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My Skills</h3>
+                    <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Html/css</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Python</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Django </h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Flutter</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="66"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>React.js / Next.js</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="47"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+
+                </div>
+            </div>
+            </div>
+        </section><!-- /.secton-skills -->
+
+        <section id="service" class="site-section section-services overlay text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>What i do</h3>
+                        <img src="{%static 'assets/img/lines.svg'%}" class="img-lines" alt="">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="{% static 'assets/img/brc1.png' %}" alt="Front End Developer">
+                            <h4>Front-end</h4>
+                            <p>As a Python developer, I have experience in HTML, CSS3 and REACT.JS/NEXT.JS techniques working with Django Framework</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="{% static 'assets/img/brc1.png' %}" alt="Back End Developer">
+                            <h4>Back-end</h4>
+                            <p>Utilising Django frameworks such as Tkinter, including REST APIs,
+                                 e-learning, e-commerce applications and more.</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="{% static 'assets/img/gui2.png' %}" alt="GUI">
+                            <h4>SEO Optimiser</h4>
+                            <p>As well as providing SEO as desired by the user.</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="{% static 'assets/img/gui3.png' %}" alt="Back End Developer">
+                            <h4>Mobile Dev</h4>
+                            <p>Utilising Flutter framework .</p>
+                        </div><!-- /.service -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-services -->
+        <section id="portfolio">
+            
+    <div id="projects">
+        <div class="heading-with-effect text-center aos-init aos-animate" data-aos="fade-up">
+            <h1>Projects</h1>
+            <span>Because work profile matters the most</span>
+          </div>
+
+          <div class="row text-center aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-5 col-sm-12">
+              <h1>Portfolio v1</h1>
+              <p>
+                Hehe,This was the version 1 of the website that you are currenly
+                scrolling through.
+              </p>
+            </div>
+            <div class="col-md-7 col-sm-12 project-img-col">
+              <a href="http://harshgoel.co"><img src="{% static 'assets/img/cover1.png' %}" alt="Harsh Goel SRM University"></a>
+            </div>
+          </div>
+          <div class="row text-center aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-7 col-sm-12 project-img-col">
+              <a href="http://socialdukan.com"><img src="{% static 'assets/img/cover2.png' %}" alt="Social Dukan"></a>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <h1>Social Dukan</h1>
+              <p>
+                Social Dukan, is one shop for all online marketing activities.
+                We are a 1-year-old startup based out of Chandigarh
+              </p>
+            </div>
+          </div>
+          
+           
+           
+          <div class="row text-center aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-5 col-sm-12">
+              <h1>Portfolio v1</h1>
+              <p>
+                Hehe,This was the version 1 of the website that you are currenly
+                scrolling through.
+              </p>
+            </div>
+            <div class="col-md-7 col-sm-12 project-img-col">
+              <a href="http://harshgoel.co"><img src="{% static 'assets/img/cover3.png' %}" alt="Harsh Goel SRM University"></a>
+            </div>
+          </div>
+          <div class="row text-center aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-7 col-sm-12 project-img-col">
+              <a href="http://socialdukan.com"><img src="{% static 'assets/img/cover4.png' %}" alt="Social Dukan"></a>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <h1>Social Dukan</h1>
+              <p>
+                Social Dukan, is one shop for all online marketing activities.
+                We are a 1-year-old startup based out of Chandigarh
+              </p>
+            </div>
+          </div>
+          <div class="row text-center aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-5 col-sm-12">
+              <h1>Portfolio v1</h1>
+              <p>
+                Hehe,This was the version 1 of the website that you are currenly
+                scrolling through.
+              </p>
+            </div>
+            <div class="col-md-7 col-sm-12 project-img-col">
+              <a href="http://harshgoel.co"><img src="{% static 'assets/img/cover5.png' %}" alt="Harsh Goel SRM University"></a>
+            </div>
+          </div>
+          <div class="row text-center aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-7 col-sm-12 project-img-col">
+              <a href="http://socialdukan.com"><img src="{% static 'assets/img/cover6.png' %}" alt="Social Dukan"></a>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <h1>Social Dukan</h1>
+              <p>
+                Social Dukan, is one shop for all online marketing activities.
+                We are a 1-year-old startup based out of Chandigarh
+              </p>
+            </div>
+          </div>
+          <!-- Insert -->
+           
+      </div>
+        </section>
+
+
+        <section class="site-section section-counters text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <p class="counter start" data-to="2" data-speed="2000">0</p>
+                        <h4>Years Experience</h4>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p class="counter start" data-to="8" data-speed="2000">0</p>
+                        <h4>Projects Delivered</h4>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
+                        <h4>Seconds on this site!<br>What are you waiting for?</h4>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-counters -->
+
+        <section id="contact" class="site-section section-form text-center">
+            <div class="container">
+
+                <h3>Contact</h3>
+                <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <button href="#" class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
+                </form>
+            </div>
+        </section><!-- /.section-form -->
+
+
+
+    </main>
+
+
+{% endblock %}
