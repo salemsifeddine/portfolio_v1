@@ -256,19 +256,22 @@
 
                 <h3>Contact</h3>
                 <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines">
-                <form>
+                <form method="POST">
+                    {% csrf_token %}
+                     
                     <div class="row">
                         <div class="col-sm-6">
-                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                            {{form.first_name}}
                         </div>
                         <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                            {{form.email}}
                         </div>
                         <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                            {{form.subject}}
                         </div>
                     </div>
-                    <button href="#" class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
+                     
+                    <button class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
                 </form>
             </div>
         </section><!-- /.section-form -->

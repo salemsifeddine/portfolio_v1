@@ -14,3 +14,13 @@ class Description(models.Model):
      def __str__(self):
           return self.title
 
+
+class ContactUs(models.Model):
+    first_name=models.CharField(max_length=60)
+    email=models.EmailField(max_length=255)
+    subject=models.TextField()
+
+    def __str__(self):
+        return f"{self.first_name} contact"
+
+

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Description
+from .models import *
 
 @admin.register(Description)
 class AdminSlider(admin.ModelAdmin):
@@ -8,3 +8,5 @@ class AdminSlider(admin.ModelAdmin):
     date_hierarchy = 'created_at'
     prepopulated_fields = {"slug":("title",)}
     list_per_page = 3
+
+admin.site.register(ContactUs)
