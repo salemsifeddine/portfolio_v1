@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import imp
 import os
 from pathlib import Path
-import django_heroku
 import whitenoise
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
