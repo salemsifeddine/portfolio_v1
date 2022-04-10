@@ -11,3 +11,4 @@ six==1.15.0
 sqlparse==0.4.1
 virtualenv==20.4.2
 virtualenvwrapper-win==1.2.6
+gunicorn==19.9.0
