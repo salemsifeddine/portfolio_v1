@@ -724,3 +724,24 @@ a.icon-up-bg:hover {color: #212121;}
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+
+.post__blob3 {
+  top: -2rem;
+  left: 12rem;
+  color: var(--yellow);
+}
+.post__blob {
+  position: absolute;
+  width: 410px;
+z-index: -99;
+  
+}
+
+.post__blob2 {
+  top: 0rem;
+  right: 8rem;
+  color: var(--red);
+}
+
+
